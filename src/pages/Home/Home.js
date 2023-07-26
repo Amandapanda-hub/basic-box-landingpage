@@ -7,7 +7,7 @@ export default function Home() {
           <img src="https://images.unsplash.com/photo-1603625354572-83f7a0c498a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTMzNXwwfDF8c2VhcmNofDE2fHxib2F0c3xlbnwxfHx8fDE2OTAyODk3NTJ8MA&ixlib=rb-4.0.3&q=80&w=1000" alt="logo" 
           className="object-contain w-full h-full"/>
         </div>
-        <div className="flex flex-col justify-between p-4 rounded w-full space-y-2 sm:space-y-[8rem] sm:w-1/3 lg:w-1/3 h-1/2 sm:h-auto">
+        <div className="flex flex-col justify-between p-4 rounded w-full space-y-2 lg:space-y-[5rem] md:space-y-[4rem] sm:space-y-[8rem] sm:w-1/3 lg:w-1/3 h-1/2 sm:h-auto">
           <div className=''>
             <h1 className="text-5xl sm:text-6xl mb-8">Opening Soon.</h1>
             <p className="mb-12 text-2lg sm:text-3xl">Our Watercraft Emporium is opening this Spring. Sign up with your email address to get notified.</p>
@@ -19,7 +19,7 @@ export default function Home() {
               placeholder="Email"
             />
             <button 
-            className="border border-[#006299] bg-transparent hover:bg-[#1481BF] hover:bg-opacity-80 hover:text-white text-[#006299] font-bold py-4 sm:px-6 rounded w-full sm:w-1/4 mt-4 sm:mt-0">
+            className="border border-[#006299] bg-transparent hover:bg-[#1481BF] hover:bg-opacity-80 hover:text-white text-[#006299] font-bold py-4 sm:px-6 md:px-3 rounded w-full sm:w-1/4 mt-4 sm:mt-0">
               Sign Up
             </button>
           </div>
